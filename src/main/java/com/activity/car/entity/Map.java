@@ -12,7 +12,6 @@ public class Map {
 
     public Map() {
         matrix = new int[9][11];
-//        defineMap();
     }
 
     public int[][] getMatrix() {

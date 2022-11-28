@@ -23,4 +23,9 @@ public class CarController {
         carService.move(key);
         return carService.getCarData();
     }
+
+    @GetMapping("restart")
+    public void restart() {
+        carService.restart();
+    }
 }
